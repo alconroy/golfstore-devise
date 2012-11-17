@@ -1,4 +1,6 @@
 Golfstore::Application.routes.draw do
+  resources :cart2s
+
   devise_for :users
 
   get "home/index"
